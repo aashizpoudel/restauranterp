@@ -15,7 +15,5 @@ class DatabaseSeeder extends Seeder
          $this->call(RolesTableSeeder::class);
          $this->call(CategoriesTableSeeder::class);
          $this->call(FoodsTableSeeder::class);
-         $this->call(AddonTableSeeder::class);
-         $this->call(AddonassignTableSeeder::class);
     }
 }
